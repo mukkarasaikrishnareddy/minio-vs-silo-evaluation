@@ -1,0 +1,45 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local data and persistent storage
+data/
+datasets/
+volumes/
+storage/
+minio-data/
+silo-data/
+
+# Benchmark outputs and generated artifacts
+benchmark-results/
+test-results/
+*.prof
+*.dump
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local evidence that may contain sensitive information
+private-evidence/
+
